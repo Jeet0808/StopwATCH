@@ -1,0 +1,325 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(216, 220, 223);
+    animation: backg 60S  infinite ease-in-out ;
+    background: linear-gradient(to left , rgba(0, 187, 255, 0.482), rgba(0, 0, 255, 0.499));
+  
+    
+    
+}
+@keyframes backg {
+    0%{
+        background: linear-gradient(to left , rgba(0, 187, 255, 0.482), rgba(0, 0, 255, 0.499));
+    
+    }
+    
+    100%{
+        background: linear-gradient(to right , rgba(202, 18, 165, 0.482), rgba(0, 0, 255, 0.499));
+       
+    }
+
+    
+
+
+    
+}
+
+#myh1{
+    font-size: 4rem;
+    font-family: Arial, sans-serif ;
+    color: rgb(43, 42, 42);
+    text-shadow:  5px 5px 5px rgb(7, 88, 209);
+
+}
+
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 5px solid white;
+    border-radius: 50px;
+    background-color: white;
+    animation: border 1s  0.3s infinite ease-in ;
+}
+@keyframes border {
+    5%{
+        border-left: 5px solid rgb(29, 51, 112);
+    } 
+    20%{
+        border-top: 5px solid rgb(62, 110, 213);
+    }
+    10%{
+        border-right: 5px solid rgb(29, 51, 112);
+    }
+   
+    30%{
+        border-bottom: 5px solid rgb(62, 110, 213);
+    }
+}
+
+#display{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgba(80, 132, 178, 0.64);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.897);
+    margin-bottom: 25px;
+}
+
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 124px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition:   background-color 0.5s ease;
+}
+
+#startbtn{
+
+    background-color: green;
+
+}
+
+#startbtn:hover{
+    background-color: rgba(0, 128, 0, 0.793);
+    
+}
+
+
+#stopbtn{
+
+    background-color: rgb(241, 53, 6);
+
+}
+
+#stopbtn:hover{
+    background-color: rgba(241, 53, 6, 0.727);
+    
+}
+
+
+#resetbtn{
+
+    background-color: rgb(0, 36, 128);
+
+}
+
+#resetbtn:hover{
+    background-color: rgba(0, 36, 128, 0.718);
+    
+}
+
+ a {
+   font-size: x-large;
+    text-decoration: none;
+    font-family:'Times New Roman';
+    color:   rgb(1, 1, 56);
+    font-weight: 100;
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+   margin-top: 300px;
+   
+
+
+animation-direction: alternate;
+    animation-name: it2;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+
+}
+
+
+@keyframes it2 {
+    0%{
+        color:  rgb(4, 2, 98);
+    }
+    50%{
+        color: rgb(1, 53, 72);
+    }
+    100%{
+        color: rgb(105, 2, 62);
+    }
+}
+
+
+
+
+@media (max-width:500px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(216, 220, 223);
+        animation: backg 30S  infinite ease-in-out ;
+        background: linear-gradient(to left , rgba(0, 187, 255, 0.482), rgba(0, 0, 255, 0.499));
+      
+        
+        
+    }
+    @keyframes backg {
+        0%{
+            background: linear-gradient(to left , rgba(0, 187, 255, 0.482), rgba(0, 0, 255, 0.499));
+        
+        }
+        
+        100%{
+            background: linear-gradient(to right , rgba(202, 18, 165, 0.482), rgba(0, 0, 255, 0.499));
+           
+        }
+    
+        
+    
+    
+        
+    }
+    
+    #myh1{
+        font-size: 2rem;
+        font-family: Arial, sans-serif ;
+        color: rgb(43, 42, 42);
+        text-shadow:  5px 5px 5px rgb(7, 88, 209);
+    
+    }
+    
+    #myh1{
+        transform: rotate(30deg);
+    }
+    
+    
+    #container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        box-sizing: border-box;
+        border: 5px solid white;
+        border-radius: 50px;
+        background-color: white;
+        
+    }
+    
+    
+    
+    @keyframes border {
+        5%{
+            border-left: 5px solid rgb(29, 51, 112);
+        } 
+        20%{
+            border-top: 5px solid rgb(62, 110, 213);
+        }
+        10%{
+            border-right: 5px solid rgb(29, 51, 112);
+        }
+       
+        30%{
+            border-bottom: 5px solid rgb(62, 110, 213);
+        }
+    }
+    
+    #display{
+        font-size: 2rem;
+        font-family: monospace;
+        font-weight: bold;
+        color: rgb(63, 72, 81);
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.608);
+        margin-bottom: 25px;
+    }
+    
+    #controls button{
+        font-size: 1rem;
+        font-weight: bold;
+        padding: 5px 10px;
+        margin: 2.5px;
+        min-width: 100px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        color: white;
+        transition:   background-color 0.5s ease;
+    }
+    
+    #startbtn{
+    
+        background-color: rgb(0, 0, 0);
+        box-shadow: 2px 2px 2px rgba(54, 58, 56, 0.57);
+    }
+    
+    #startbtn:hover{
+        background-color: rgba(0, 128, 0, 0.793);
+      
+    }
+    
+    
+    #stopbtn{
+    
+        background-color: rgb(129, 1, 80);
+        box-shadow: 2px 2px 2px rgb(48, 45, 47);
+    
+    }
+    
+    #stopbtn:hover{
+        background-color: rgba(241, 53, 6, 0.727);
+        
+    }
+    
+    
+    #resetbtn{
+
+
+       
+        background-color: rgb(20, 44, 105);
+        box-shadow: 2px 2px 2px rgb(48, 45, 47);
+    
+    }
+    
+    #resetbtn:hover{
+        background-color: rgba(0, 36, 128, 0.718);
+        
+    }
+    
+     a {
+       font-size: x-large;
+        text-decoration: none;
+        font-family:'Times New Roman';
+        color:   rgb(1, 1, 56);
+        font-weight: 100;
+        font-family:'Times New Roman', Times, serif;
+        display: flex;
+        justify-content: center;
+       margin-top: 200px;
+       
+    
+    
+    animation-direction: alternate;
+        animation-name: it2;
+        animation-iteration-count: infinite;
+        animation-duration: 3s;
+    
+    }
+    
+    
+    @keyframes it2 {
+        0%{
+            color:  rgb(4, 2, 98);
+        }
+        50%{
+            color: rgb(1, 53, 72);
+        }
+        100%{
+            color: rgb(105, 2, 62);
+        }
+    }
+}
+
+
