@@ -128,7 +128,7 @@ body{
     font-family:'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
-   margin-top: 300px;
+   margin-top: 250px;
    
 
 
@@ -179,9 +179,6 @@ animation-direction: alternate;
         }
     
         
-    
-    
-        
     }
     
     #myh1{
@@ -192,9 +189,6 @@ animation-direction: alternate;
     
     }
     
-    #myh1{
-        transform: rotate(30deg);
-    }
     
     
     #container{
